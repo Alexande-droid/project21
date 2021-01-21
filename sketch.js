@@ -10,7 +10,7 @@ bullet=createSprite(50,200,50,50)
 wall=createSprite(1200,200,thickness,height/2)
 bullet.velocityX = speed;
 bullet.shapeColor = "green"
-wall.shapeColor = "80,80,80"
+wall.shapeColor = "blue"
 }
 function draw() {
   background(255,255,255);
@@ -28,4 +28,5 @@ function draw() {
     }
   }  
   drawSprites();
+ 
 }
